@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(pic.png); */
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+   color: black;
+    text-decoration: none;
+    font-size: 18px;
+    /* position: b; */
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 20px;
+    
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.img{
+    height: 200px; 
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    margin-top: 200px;
+    margin-right: 50px;
+    
+}
+.btn{
+    display: inline-block;
+    background: #ff004f;
+    margin-top: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.post{
+    height: 400px;
+    width: 100%;
+}
+.rec{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+.mar{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(164, 201, 216);
+}
+.market{
+    height: 300px;
+    width: 450px;
+    margin-left: 50px;
+    background-color:white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+}
+.feature{
+    height: 600px;
+    margin-top: 100px;
+}
+.fm1{
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    margin-left: 30px;
+
+}
+.im1{
+    height: 150px;
+    width: 150px;
+}
+.text1{
+    margin-left: 150px;
+    height: 150px;
+    /* width: 500px; */
+}
+.footer{
+    height: 200px;
+    text-align: center;
+    margin-top: 100px;
+}
+i{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.main1{
+    display: flex;
+}
+
+
+
+@media only screen and (max-width:780px){
+    .main1{
+        display: block;
+        
+    }
+   
+    .header-text{
+        text-align: center;
+        width: 100%;
+
+    }
+    .img{
+        text-align: center;
+        margin-left: 40px;
+    }
+    .post{
+        display: block;
+        margin-top: 250px;
+        margin-bottom: 500px;
+    }
+    .rec{
+        display: block;
+        text-align: center;
+    }
+    .rec a{
+        display: none;
+    }
+    .mar{
+        display: block;
+        height: 800px;
+       width: 100%;
+       padding: 20px;
+    }
+    .market{
+        display: block;
+        height: 300px;
+        width: 300px;
+        margin-right: 50px;
+    }
+    .feature{
+        text-align: center;
+        margin-bottom: 750px;
+    }
+    .fm1{
+        display: block;
+        height: 390px;
+        width: 100%;
+    }
+    .im1{
+        text-align: center;
+        margin-left: 60px;
+    }
+    .text1{
+        margin-top: 50px;
+        width: 100%;
+        height: 120px;
+        margin-left: 10px;
+    }
+    .footer{
+        text-align: center;
+        width: 100%;
+    }
+    
+   
+}
